@@ -6,9 +6,6 @@
 <img src="[[https://c.tenor.com/D2H0hPltOdYAAAAM/golden-boy-fake-keyboard-programing-coding-paper-book.gif](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDEPlkS2_NHVkoBL4WL3geAdlwL7BO0UJYYQ&usqp=CAU)](https://lh3.googleusercontent.com/05JfZ1ZdyzrRNvhJosUFdcjjJRFE7k2KhmeM2ujqeCbrcrCb1hkq7O_JdUBpQ3r9hi0YeSn4WgmKx3Ai8LHdM2SucxSzl9TRZ4fCAqETJ6WtHgE=s0)" width="400" height="230"/>
 </div>
 <br><br>
-<p align="center">
-<a href="https://tinyurl.com/Onichan7w7r"><img title="WhatsApp-Bot-MD" src="https://img.shields.io/badge/-WHATSAPP--BOT--MD-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
 
 
 # 📖 Características del bot 
