@@ -11,7 +11,7 @@
 # 📖 Características del bot 
 |  Funciones | Si |                                           Comando |
 | :---------------------------------------------: | :-----------: |
-| Crea stickers|✔️| .sticker |
+| Crea stickers|✔️|
 | Bienvenida automática|✔️|
 | Anti-Link|✔️|
 | Anti-Fakes|✔️|
