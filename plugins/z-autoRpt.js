@@ -1,5 +1,5 @@
 /**
-[ By @NeKosmic || https://github.com/NeKosmic/ ]
+[ By @RadaAsh || https://github.com/angyvanne ]
 **/
 import db from '../lib/database.js'
 import * as fs from 'fs'
@@ -34,37 +34,37 @@ m.limit = 0
 }
 //
 if (rtps1.includes(".Pokebot") || rtps1.includes(".pokebot")){
-m.reply(`🤖*hola, gracias por usar el bot, te comparto la lista de comandos(RECUERDA PONER UN . ANTES DE CADA COMANDO):*`)
+m.reply(`🤖*hola, gracias por usar el bot, te comparto la lista de comandos (RECUERDA PONER UN . ANTES DE CADA COMANDO):*`)
 setTimeout( () => {
-m.reply(`*.Safari o .safari:* Informacion de los proximos safari zone\n\n*.cd o .Cd:* informacion de los proximos dias de la comunidad\n\n*.HraDes o . hrades:* informacion de las proximas horas destacadas\n\n*.HraLeg o .hraleg:* informacion de kas proximas horas legendarias*\n\n*.Capi o .capi:* comparte el ultimo capitulo del anime\n\n *.sticker:* usalo para conbertir una imagen en sticker, tambien funciona con videos de menos de 10 segundos de duracion. 😎🤝`)
+m.reply(`*.Safari o .safari:* Informacion de los proximos safari zone\n\n*.cd o .Cd:* informacion de los proximos dias de la comunidad\n\n*.HraDes o . hrades:* informacion de las proximas horas destacadas\n\n*.HraLeg o .hraleg:* informacion de las proximas horas legendarias*\n\n*.Capi o .capi:* comparte el ultimo capitulo del anime\n\n *.sticker:* usalo para conbertir una imagen en sticker, tambien funciona con videos de menos de 10 segundos de duracion. 😎🤝`)
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".Safari") || rtps1.includes(".safari")){
 m.reply(`🤖*hola, en un momento te comparto la informacion de los proximos safaris zone:*`)
 setTimeout( () => {
-m.reply(`*Lugar:* Gardens by the Bay\n*fecha:* desde el viernes, 18 de noviembre de 2022 hasta el domingo, 20 de noviembre\n*costos aproximados:* 238 pesos de 12:00 a 18:00 horas o 350 pesos de 10:00 a 18:00 horas\n*Cordenadas, por si eres un sucio fly:* 1.281766732, 103.863613* 😎🤝`)
+m.reply(`*Lugar:AUN SIN INFORMACION DEL PROXIMO SAFARI* \n*fecha:* \n*costos aproximados:* \n*Cordenadas, por si eres un sucio fly:* 😎🤝`)
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".cd") || rtps1.includes(".Cd")){
 m.reply(`🤖*hola, en un momento te comparto la informacion de los proximos dias de la comunidad:*`)
 setTimeout( () => {
-m.reply(`*12/11:* Teddiursa\n*evolucion:* teddiursa-ursaring-ursaluna\n*ataque legado:* Ursaluna obtendra el ataque Fuerza Equina\n*bonus:* polvo estelar x3`)
+m.reply(`*17 y 18/Dic:* CD Aniversario, apareceran todos los pokemon de 2021 y 2022\n*evolucion:* evoluciones completaas\n*ataque legado:*posiblemente repetiran los ataques de los pasados CD\n*bonus:* posiblemente se podran obtener de nuevo tosdos los ataques de los CD pasados \n\n*07/Ene:* Aun sin información\n*evolucion:*\n*ataque legado:*\n*bonus:*\n\n*21/Ene:* CD Clasico, sin informacion de quien sera el pokemon que repirta\n*evolucion:*\n*ataque legado:*\n*bonus:*\n\n*05/Feb:* Aun sin información\n*evolucion:*\n*ataque legado:*\n*bonus:*`)
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".HraDes") || rtps1.includes(".hrades")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-m.reply(`*15/11:* Porygon con bonus de doble caramelos por captura\n*22/11:* Petilil con bonus de doble caramelos por transferencia\n*29/11:* Hoothoot con bonus de doble exp por eviolucionar`)
+m.reply(`*22/11:* Petilil con bonus de doble caramelos por transferencia\n*29/11:* Hoothoot con bonus de doble exp por eviolucionar`)
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".HraLeg") || rtps1.includes(".hraleg")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-m.reply(`*16/11:* Guzzlord\n*23/11:* Nihilego\n*30/11:* Nihilego`)
+m.reply(`*23/11:* Nihilego\n*30/11:* Nihilego`)
 }, 2500)
 m.limit = 0
 }
@@ -72,6 +72,13 @@ if (rtps1.includes(".capi") || rtps1.includes(".Capi")){
 m.reply(`🤖*hola en un momento comparto el capitulo de la semana en el anime:*`)
 setTimeout( () => {
 m.reply(`*Aun en espera de que se cargue el capitulo*`)
+}, 2500)
+m.limit = 0
+}
+if (rtps1.includes(".eventos") || rtps1.includes(".Eventos")){
+m.reply(`🤖*hola enviando los siguientes eventos:*`)
+setTimeout( () => {
+m.reply(`*03/Dic:* evento desconocido aun\n\n*10 y 11/Dic:* evento desconocido\n\n*24 y 25/Dic:* evento desconocido pero por fechas podria suponer evento de navidad\n\n*???/Feb:* Go tour de la region Hoenn\n\n	durante este evento se espera un Jirachi variocolor asegurado\n\n	Kekleon podria debutar, incluyendo su forma shiny\n\n	Todos los pokemon de la region de Hoenn disponiblescon su version shiny`)
 }, 2500)
 m.limit = 0
 }
