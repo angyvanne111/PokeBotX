@@ -9,7 +9,7 @@
 
 
 # 📖 Características del bot 
-|  Funciones | Si | Comando |
+|  Funciones | Si |                                           Comando |
 | :---------------------------------------------: | :-----------: |
 | Crea stickers|✔️| .sticker |
 | Bienvenida automática|✔️|
