@@ -1,0 +1,13 @@
+import db from '../lib/database.js'
+import * as fs from 'fs'
+import not from '../lib/modokuaker.js'
+
+const comandos = { //propiedad
+    /*propiedad*/.safari /*valor que retorna cuando se llama a la propiedad*/() => {
+        message.reply('Hola, aqui esta la informacion de los proximos safaris: \n\n *Safari Zone Singapur*  \n\n  *Costo:* 12.28 Dolares o 18.06 Dolares con acceso anticipado  \n\n *Fechas:* 18, 19 y 20 de noviembre  \n\n *Lugar:* gardens by the Bay  \n\n *Cordenadas:* Proximamente disponibles');
+    }
+}
+
+client.on('message' , message => {
+    comandos/*objeto*/[message.body/**propiedad*/]()
+});       
