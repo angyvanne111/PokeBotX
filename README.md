@@ -2,7 +2,7 @@
 <br>
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00CB22&width=435&lines=Bot+WhatsApp+de+Pokemon+Go+Multidevice+nwn;Gracias+por+usar+este+bot+%3A3;%5B+Feliz+caceria+🦥+%5D_)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00CB22&width=435&lines=Bot+WhatsApp+de+Pokemon+Go+Multidevice+nwn;Gracias+por+usar+este+bot+%3A3;%5B+Feliz+caceria+🦥+%5D_)](https://git.io/typing-svg)<br><br>
 <img src="[https://c.tenor.com/D2H0hPltOdYAAAAM/golden-boy-fake-keyboard-programing-coding-paper-book.gif](https://lh3.googleusercontent.com/05JfZ1ZdyzrRNvhJosUFdcjjJRFE7k2KhmeM2ujqeCbrcrCb1hkq7O_JdUBpQ3r9hi0YeSn4WgmKx3Ai8LHdM2SucxSzl9TRZ4fCAqETJ6WtHgE=s0)" width="400" height="230"/>
 </div>
 <br><br>
