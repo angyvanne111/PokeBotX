@@ -8,8 +8,9 @@
 <br><br>
 
 
+
 # 📖 Características del bot 
-|  Funciones | Si |                                           Comando |
+|  Funciones y comandos  |                                           Sip |
 | :---------------------------------------------: | :-----------: |
 | Crea stickers|✔️|
 | Bienvenida automática|✔️|
@@ -18,6 +19,8 @@
 | Jadibot-vBeta|✔️|
 | Anti-Estranjeros|✔️|
 | Anti-Spam(Command flood)|✔️|
+| Anti-Llamadas|✔️|
+| Anti-Privados|✔️|
 | Modo Publico/Privado|✔️|
 | Herramientas de edición|✔️|
 | Creador de logos|✔️|
@@ -28,7 +31,8 @@
 | Botones clásicos|✔️|
 | Random commands|✔️|
 | NSFW|🔞|
-| Más funciones en adelante|👾|
+| Más funciones en adelante|♻️|
+
 
 # 🌎 Instrucciones para instalar...
 
