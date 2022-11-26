@@ -1,5 +1,5 @@
 /**
-[ By @NeKosmic || https://github.com/NeKosmic/ ]
+[ By @RadaAsh || https://github.com/angyvanne ]
 **/
 import db from '../lib/database.js'
 import { canLevelUp } from '../lib/levelling.js'
