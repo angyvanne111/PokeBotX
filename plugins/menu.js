@@ -10,7 +10,6 @@ import Connection from '../lib/connection.js'
 let tags = {
   //'contenido': 'Principal',
   'conversor': '_CONVERSORES :_',
-  'animeuwu': '_ANIME :_',
   'casual': '_CMDS-CASUAL :_',
   'propietario': '_CMDS DUEÑO :_',
   'herramienta': '_HERRAMIENTAS :_',
