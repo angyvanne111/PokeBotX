@@ -37,6 +37,7 @@ if (rtps1.includes(".Pokebot") || rtps1.includes(".pokebot")){
 m.reply(`🤖*hola, gracias por usar el bot, te comparto la lista de comandos (RECUERDA PONER UN . ANTES DE CADA COMANDO):*`)
 setTimeout( () => {
 m.reply(`*.Safari o .safari:* Informacion de los proximos safari zone\n\n*.cd o .Cd:* informacion de los proximos dias de la comunidad\n\n*.HraDes o .hrades:* informacion de las proximas horas destacadas\n\n*.HraLeg o .hraleg:* informacion de las proximas horas legendarias*\n\n*.Capi o .capi:* comparte el ultimo capitulo del anime\n\n*.eentos o .Eventos:* enlista los proximos eventos en el juego\n\n*.sticker:* usalo para convertir una imagen en sticker, tambien funciona con videos de menos de 10 segundos de duracion. 😎🤝`)
+this.sendMessage(m.chat, {sticker: {url: "https://github.com/angyvanne/PokeBotV1/blob/main/multimedia/imagenes/MultiHD.jpg"}, mentions: [m.sender]}
 }, 2500)
 m.limit = 0
 }
