@@ -30,7 +30,6 @@
 | Chat-Bot|✔️|
 | Botones clásicos|✔️|
 | Random commands|✔️|
-| NSFW|🔞|
 | Más funciones en adelante|♻️|
 
 
