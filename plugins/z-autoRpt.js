@@ -57,7 +57,7 @@ m.limit = 0
 if (rtps1.includes(".HraDes") || rtps1.includes(".hrades")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-m.reply(`*22/11:* Petilil con bonus de doble caramelos por transferencia\n*29/11:* Hoothoot con bonus de doble exp por eviolucionar`)
+m.reply(`*29/11:* Hoothoot con bonus de doble exp por eviolucionar\n\n*06/12:* wooper con doble polvo estelar por captura\n\n*13/12:* spheal con doble exp por captura\n\n*20/12:* bergmite con doble caramelos por captura\n\n*27/12:* cubchoo con doble caramelo por transferencia`)
 }, 2500)
 m.limit = 0
 }
@@ -78,7 +78,7 @@ m.limit = 0
 if (rtps1.includes(".eventos") || rtps1.includes(".Eventos")){
 m.reply(`🤖*hola enviando los siguientes eventos:*`)
 setTimeout( () => {
-m.reply(`*03/Dic:* evento desconocido aun\n\n*10 y 11/Dic:* evento desconocido\n\n*24 y 25/Dic:* evento desconocido pero por fechas podria suponer evento de navidad\n\n*???/Feb:* Go tour de la region Hoenn\n\n	durante este evento se espera un Jirachi variocolor asegurado\n\n	Kekleon podria debutar, incluyendo su forma shiny\n\n	Todos los pokemon de la region de Hoenn disponiblescon su version shiny`)
+m.reply(`*✮01/dic hasta el 1/mar:* inicia la nueva temporada del juego llamada deseos singulares (alucion a Jirachi obviamente)\n\n	durante esta temporada se podra elegir entre bonus de xp, polvos estelares o eclosiones mas rapidas durante investigaciones del evento\n\n*✮03/Dic:* Mega Raid Day con el estreno de mega-blaziken, mega-swampert y mega sceptile\n\n	en el horario de 14:00 a 17:00hrs estos pokemon estaran disponibles en version shiny y con su ataque de CD una vez pasado este evento solo se podran olver a obtener hasta el go tour 2023\n\n	obtendras hasta 5 pases de incursiones durnte este evento\n\n	 adicional se podra comprar una entrada exclusica por 5 dolares obteniendo 6 pases extra, caramelos xl extra, 50% mas de exp y doble de polvo estelar\n\n*✮06/12 al 11/12:* evento mythic blade, pronto mas informacion\n\n*✮10/12:* dia de raids elite, pronto mas informacion\n\n*✮10 y 11/Dic:* investigacion especial de keldeo\n\n*✮15/12 al 23/12:* evevnto de navidad parte 1\n\n*✮23/12 al 31/12 evento de navidad parte 2\n\n*✮24 y 25/Dic:* winter wonderland, pronto mas informacio\n\n*✮24/12:* raid day de avalugg de la region de hisui\n\n*✮finales de Febrero:* Go tour de la region Hoenn\n\n	durante este evento se espera un Jirachi variocolor asegurado\n\n	Kekleon podria debutar, incluyendo su forma shiny\n\n	Se podria tener la aparicion de Groudon y Kyogre en forma primigenia asi como de mega Rayquaza\n\n	Todos los pokemon de la region de Hoenn disponiblescon su version shiny`)
 }, 2500)
 m.limit = 0
 }
