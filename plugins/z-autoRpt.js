@@ -64,7 +64,7 @@ m.limit = 0
 if (rtps1.includes(".HraLeg") || rtps1.includes(".hraleg")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/dDc10qdR/cobalion.jpg' }, caption: `*21/Dic:* \n*28/Dic:* Kyurem` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/dDc10qdR/cobalion.jpg' }, caption: `*21/Dic:* Cobalion \n*28/Dic:* Kyurem` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
