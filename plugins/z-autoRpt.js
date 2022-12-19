@@ -50,7 +50,7 @@ m.limit = 0
 if (rtps1.includes(".cd") || rtps1.includes(".Cd")){
 m.reply(`🤖*hola, en un momento te comparto la informacion de los proximos dias de la comunidad:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://areajugones.sport.es/wp-content/uploads/2022/12/photo1670282737.jpeg' }, caption: `*17 y 18/Dic:* CD Aniversario, apareceran todos los pokemon de 2022\n*evolucion:* evoluciones completas\n*ataque legado:*los pokemon obtendran los ataques de los pasados CD\n*bonus:* todos los bonus de los CD activos \n\n*07/Ene:* Aun sin información\n*evolucion:*\n*ataque legado:*\n*bonus:*\n\n*21/Ene:* CD Clasico, sin informacion de quien sera el pokemon que repirta\n*evolucion:*\n*ataque legado:*\n*bonus:*\n\n*05/Feb:* Aun sin información\n*evolucion:*\n*ataque legado:*\n*bonus:*` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://postimg.cc/hhMBqg0t' }, caption: `*07/Ene:* Chespin\n*evolucion:* Chesnaught\n*ataque legado:* Planta Feroz \n*bonus:* 	Doble caramelos por captura\n	un cuarto de distancia para eclosionar huevos\n\n*21/Ene:* CD Clasico, sin informacion de quien sera el pokemon que repirta\n*evolucion:*\n*ataque legado:*\n*bonus:*\n\n*05/Feb:* Aun sin información\n*evolucion:*\n*ataque legado:*\n*bonus:*` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
@@ -64,7 +64,7 @@ m.limit = 0
 if (rtps1.includes(".HraLeg") || rtps1.includes(".hraleg")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-m.reply(`*23/11:* Nihilego\n*30/11:* Nihilego`)
+this.sendMessage(m.chat, { image: {url: 'https://postimg.cc/BPNsYfmt' }, caption: `*21/Dic:* Cobalion \n*28/Dic:* Kyurem` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
