@@ -50,21 +50,21 @@ m.limit = 0
 if (rtps1.includes(".cd") || rtps1.includes(".Cd")){
 m.reply(`🤖*hola, en un momento te comparto la informacion de los proximos dias de la comunidad:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://postimg.cc/wymVHDZd' }, caption: `*07/Ene:* Chespin\n*evolucion:* Chesnaught\n*ataque legado:* Planta Feroz \n*bonus:* 	Doble caramelos por captura\n	un cuarto de distancia para eclosionar huevos\n\n*21/Ene:* CD Clasico, sin informacion de quien sera el pokemon que repirta\n*evolucion:*\n*ataque legado:*\n*bonus:*\n\n*05/Feb:* Aun sin información\n*evolucion:*\n*ataque legado:*\n*bonus:*` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/63H1r0hT/Chesmin.jpg' }, caption: `*07/Ene:* Chespin\n*evolucion:* Chesnaught\n*ataque legado:* Planta Feroz \n*bonus:* 	Doble caramelos por captura\n	un cuarto de distancia para eclosionar huevos\n\n*21/Ene:* CD Clasico, sin informacion de quien sera el pokemon que repirta\n*evolucion:*\n*ataque legado:*\n*bonus:*\n\n*05/Feb:* Aun sin información\n*evolucion:*\n*ataque legado:*\n*bonus:*` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".HraDes") || rtps1.includes(".hrades")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://postimg.cc/1n38rS07' }, caption: `*20/Dic:* Bermite \n*27/Dic:* Cubchoo \n *bonus:* doble caramelos por transferencia` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/HxQbHsrm/bergmite.jpg' }, caption: `*20/Dic:* Bergmite \n*27/Dic:* Cubchoo \n *bonus:* doble caramelos por transferencia` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".HraLeg") || rtps1.includes(".hraleg")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://postimg.cc/BPNsYfmt' }, caption: `*21/Dic:* Cobalion \n *bonus:* Doble caramelos por transferencia \n*28/Dic:* Kyurem` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/dDc10qdR/cobalion.jpg' }, caption: `*21/Dic:* Cobalion \n *bonus:* Doble caramelos por transferencia \n*28/Dic:* Kyurem` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
