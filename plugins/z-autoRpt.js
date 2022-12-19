@@ -57,14 +57,14 @@ m.limit = 0
 if (rtps1.includes(".HraDes") || rtps1.includes(".hrades")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/HxQbHsrm/bergmite.jpg' }, caption: `*20/Dic:* Bergmite \n*27/Dic:* Cubchoo \n *bonus:* doble caramelos por transferencia` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/HxQbHsrm/bergmite.jpg' }, caption: `*20/Dic:* Bergmite \n	*bonus:* doble caramelos por transferencia \n*27/Dic:* Cubchoo \n *bonus:* doble caramelos por transferencia` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".HraLeg") || rtps1.includes(".hraleg")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/dDc10qdR/cobalion.jpg' }, caption: `*21/Dic:* Cobalion \n *bonus:* Doble caramelos por transferencia \n*28/Dic:* Kyurem` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/dDc10qdR/cobalion.jpg' }, caption: `*21/Dic:* \n*28/Dic:* Kyurem` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
