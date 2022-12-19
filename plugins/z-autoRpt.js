@@ -57,7 +57,7 @@ m.limit = 0
 if (rtps1.includes(".HraDes") || rtps1.includes(".hrades")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://postimg.cc/BPNsYfmt' }, caption: `*20/Dic:* Bermite \n*27/Dic:* Cubchoo \n *bonus:* doble caramelos por transferencia` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://postimg.cc/1n38rS07' }, caption: `*20/Dic:* Bermite \n*27/Dic:* Cubchoo \n *bonus:* doble caramelos por transferencia` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
