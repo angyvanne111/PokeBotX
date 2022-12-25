@@ -174,14 +174,14 @@ m.limit = 10
 //autorrespuesta multimedia
 if (rtps1.includes("buenos dias") || (rtps1.includes("Buenos dias") || (rtps1.includes("buenos días") || (rtps1.includes("Buenos días"))))){
 this.sendMessage(m.chat, {audio: {url: "https://github.com/angyvanne/PokeBotX/blob/main/multimedia/sonidos/Bdia.m4a?raw=true"}, fileName: `BonDia_xd.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
-m.limit = 5
+m.limit = 0
 }
-if (rtps2.startsWith("baka")){
-this.sendMessage(m.chat, {audio: {url: "https://github.com/NeKosmic/NK-BOT/blob/main/multimedia/sonidos/audiouwu/baka.mp3?raw=true"}, contextInfo:{externalAdReply: {title: `Baka >~<`, body: `Matt_Mdz`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `baka.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
-m.limit = 1
+if (rtps1.includes("feliz navidad") || (rtps1.includes("Feliz navidad"))){
+this.sendMessage(m.chat, {audio: {url: "https://github.com/angyvanne/PokeBotX/blob/main/multimedia/sonidos/feliz%20naviad%20inmundo%20animal.m4a?raw=true"}, contextInfo:{externalAdReply: {title: `Feliz naviad >~<`, body: `PokebotMx`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `FNavi.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
+m.limit = 0
 }
-if (rtps2.includes("onich")){
-this.sendMessage(m.chat, {audio: {url: "https://github.com/NeKosmic/NK-BOT/blob/main/multimedia/sonidos/audiouwu/onich.mp3?raw=true"}, contextInfo:{externalAdReply: {title: `Oni-Chan >~<`, body: `Matt_Mdz`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `onichan1.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
+if (rtps1.includes("Hola") || (rtps1.includes("hola"))){
+this.sendMessage(m.chat, {audio: {url: "https://github.com/angyvanne/PokeBotX/blob/main/multimedia/sonidos/hola%20enfermera.m4a?raw=true"}, contextInfo:{externalAdReply: {title: `HOla (o-o)`, body: `PokeBotMx`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `Hola.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
 m.limit = 1
 }
 if (rtps2.startsWith("kudasai")){
