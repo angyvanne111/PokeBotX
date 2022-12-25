@@ -172,7 +172,7 @@ m.limit = 10
 }
 
 //autorrespuesta multimedia
-if (rtps2.startsWith("buenos días") || (rtps2.startsWith("Buenos días") || (rtps2.startsWith("Buen día") || (rtps2.startsWith("buen día") || (rtps2.startsWith("buenos dias") || (rtps2.startsWith("Buenos dias") || (rtps2.startsWith("Buen dia") || (rtps2.startsWith("buen dia")){
+if (rtps2.startsWith("buenos días") || (rtps2.startsWith("Buenos días") || (rtps2.startsWith("Buen día") || (rtps2.startsWith("buen día") || (rtps2.startsWith("buenos dias") || (rtps2.startsWith("Buenos dias") || (rtps2.startsWith("Buen dia") || (rtps2.startsWith("buen dia"))))))))){
 this.sendMessage(m.chat, {audio: {url: "https://github.com/angyvanne/PokeBotX/blob/main/multimedia/sonidos/buenos%20dias.m4a?raw=true"}, contextInfo:{externalAdReply: {title: `buenos días >~<`, body: `PokeBot`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `buenos dias.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
 m.limit = 0
 }
