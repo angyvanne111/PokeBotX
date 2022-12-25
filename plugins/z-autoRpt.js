@@ -172,9 +172,9 @@ m.limit = 10
 }
 
 //autorrespuesta multimedia
-if (rtps2.startsWith("kawai")){
-this.sendMessage(m.chat, {audio: {url: "https://github.com/NeKosmic/NK-BOT/blob/main/multimedia/sonidos/audiouwu/onichan.mp3?raw=true"}, contextInfo:{externalAdReply: {title: `Kawaii >~<`, body: `Matt_Mdz`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `kawai.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
-m.limit = 1
+if (rtps2.startsWith("buenos días") || (rtps2.startsWith("Buenos días") || (rtps2.startsWith("Buen día") || (rtps2.startsWith("buen día") || (rtps2.startsWith("buenos dias") || (rtps2.startsWith("Buenos dias") || (rtps2.startsWith("Buen dia") || (rtps2.startsWith("buen dia")){
+this.sendMessage(m.chat, {audio: {url: "https://github.com/angyvanne/PokeBotX/blob/main/multimedia/sonidos/buenos%20dias.m4a?raw=true"}, contextInfo:{externalAdReply: {title: `buenos días >~<`, body: `PokeBot`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `buenos dias.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
+m.limit = 0
 }
 if (rtps2.startsWith("baka")){
 this.sendMessage(m.chat, {audio: {url: "https://github.com/NeKosmic/NK-BOT/blob/main/multimedia/sonidos/audiouwu/baka.mp3?raw=true"}, contextInfo:{externalAdReply: {title: `Baka >~<`, body: `Matt_Mdz`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `baka.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
