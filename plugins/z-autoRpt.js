@@ -182,23 +182,23 @@ m.limit = 0
 }
 if (rtps1.includes("Hola") || (rtps1.includes("hola"))){
 this.sendMessage(m.chat, {audio: {url: "https://github.com/angyvanne/PokeBotX/blob/main/multimedia/sonidos/hola%20enfermera.m4a?raw=true"}, contextInfo:{externalAdReply: {title: `HOla (o-o)`, body: `PokeBotMx`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `Hola.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
-m.limit = 1
+m.limit = 0
 }
-if (rtps2.startsWith("kudasai")){
-this.sendMessage(m.chat, {audio: {url: "https://github.com/NeKosmic/NK-BOT/blob/main/multimedia/sonidos/audiouwu/yamete.mp3?raw=true"}, contextInfo:{externalAdReply: {title: `Yamete kudasai! >//<`, body: `Matt_Mdz`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `kudasai1.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
-m.limit = 1
+if (rtps1.includes("Feliz cumpleaños") || (rtps1.includes("feliz cumpleaños"))){
+this.sendMessage(m.chat, {audio: {url: "https://github.com/angyvanne/PokeBotX/blob/main/multimedia/sonidos/cumple.mp3?raw=true"}, contextInfo:{externalAdReply: {title: `Felicidades <=^-^=>`, body: `PokeBotMx`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `FeliCumple.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
+m.limit = 0
 }
-if (rtps2.startsWith("yutki")){
-this.sendMessage(m.chat, {audio: {url: "https://github.com/NeKosmic/NK-BOT/blob/main/multimedia/sonidos/audiouwu/yutki.m4a?raw=true"}, contextInfo:{externalAdReply: {title: `Yutki >~<`, body: `Matt_Mdz`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `yutki.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
-m.limit = 1
+if (rtps1.includes("callados") || (rtps1.includes("Callados"))){
+this.sendMessage(m.chat, {audio: {url: "https://github.com/angyvanne/PokeBotX/blob/main/multimedia/sonidos/Murio.m4a?raw=true"}, contextInfo:{externalAdReply: {title: `Despierten `, body: `PokeBotMx`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `despierten.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
+m.limit = 0
 }
-if (rtps2.startsWith("yokese")){
-this.sendMessage(m.chat, {audio: {url: "https://github.com/NeKosmic/NK-BOT/blob/main/multimedia/sonidos/audiouwu/yokese.m4a?raw=true"}, contextInfo:{externalAdReply: {title: `Yokese >~<`, body: `Matt_Mdz`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `yokese.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
-m.limit = 1
+if (rtps1.includes("ban") || (rtps1.includes("joto") || (rtps1.includes("fly") || (rtps1.includes("gay"))))){
+this.sendMessage(m.chat, {audio: {url: "https://github.com/angyvanne/PokeBotX/blob/main/multimedia/sonidos/insultar.mp3?raw=true"}, contextInfo:{externalAdReply: {title: `deja de insultar, joder`, body: `PokeBotMx`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `insultos.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
+m.limit = 0
 }
-if (rtps2.startsWith("yajaro")){
-this.sendMessage(m.chat, {audio: {url: "https://github.com/NeKosmic/NK-BOT/blob/main/multimedia/sonidos/audiouwu/yajaro.m4a?raw=true"}, contextInfo:{externalAdReply: {title: `Yajaro! >o<`, body: `Matt_Mdz`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `yajaro.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
-m.limit = 1
+if (rtps1.includes("son novios") || (rtps1.includes("Son novios"))){
+this.sendMessage(m.chat, {audio: {url: "https://github.com/angyvanne/PokeBotX/blob/main/multimedia/sonidos/vivan.mp3?raw=true"}, contextInfo:{externalAdReply: {title: `Amigo, ustedes son novios??`, body: `PokeBotMx`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `novios.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
+m.limit = 0
 }
 if (rtps2.startsWith("woau")){
 this.sendMessage(m.chat, {audio: {url: "https://github.com/NeKosmic/NK-BOT/blob/main/multimedia/sonidos/audiouwu/woau.m4a?raw=true"}, contextInfo:{externalAdReply: {title: `Kawaii >~<`, body: `Matt_Mdz`, sourceUrl: reddom, thumbnailUrl: userthumb}}, fileName: `woau.mp3`, mimetype: 'audio/mpeg', ptt:true}, {quoted: m })
