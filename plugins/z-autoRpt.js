@@ -36,7 +36,7 @@ m.limit = 0
 if (rtps1.includes(".Pokebot") || rtps1.includes(".pokebot")){
 m.reply(`🤖*hola, gracias por usar el bot, te comparto la lista de comandos (RECUERDA PONER UN . ANTES DE CADA COMANDO):*`)
 setTimeout( () => {
-m.reply(`*.Safari o .safari:* Informacion de los proximos safari zone\n\n*.sello o .Sello:* Informacion de los pokemon que pueden salir de recompensa semanal\n\n*.cd o .Cd:* informacion de los proximos dias de la comunidad\n\n*.HraDes o .hrades:* informacion de las proximas horas destacadas\n\n*.HraLeg o .hraleg:* informacion de las proximas horas legendarias*\n\n*.incleg o .IncLeg:* Informacion de los dias de cambio de incursiones legendarias\n\n.Megas o .megas:* Informacion del dia de cambio de mega incursiones\n\n*.eentos o .Eventos:* enlista los proximos eventos en el juego\n\n*.sticker:* usalo para convertir una imagen en sticker, tambien funciona con videos de menos de 10 segundos de duracion. 😎🤝`)
+m.reply(`*.Safari o .safari:* Informacion de los proximos safari zone\n\n*.sello o .Sello:* Informacion de los pokemon que pueden salir de recompensa semanal\n\n*.cd o .Cd:* informacion de los proximos dias de la comunidad\n\n*.HraDes o .hrades:* informacion de las proximas horas destacadas\n\n*.HraLeg o .hraleg:* informacion de las proximas horas legendarias*\n\n*.incleg o .IncLeg:* Informacion de los dias de cambio de incursiones legendarias\n\n.Megas o .megas:* Informacion del dia de cambio de mega incursiones\n\n*.eventos o .Eventos:* enlista los proximos eventos en el juego\n\n*.sticker:* usalo para convertir una imagen en sticker, tambien funciona con videos de menos de 10 segundos de duracion. 😎🤝`)
 }, 2500)
 m.limit = 0
 }
@@ -69,16 +69,16 @@ this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/xCGjF77m/eevee.jpg
 m.limit = 0
 }
 if (rtps1.includes(".HraLeg") || rtps1.includes(".hraleg")){
-m.reply(`🤖*buscando las siguientes horas destacadas:*`)
+m.reply(`🤖*buscando las siguientes horas legendarias:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/gjJ9qTPm/thundurus-2.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/MArzo:* Ho-Oh\n*15/MArzo:* Ho-Oh\n*22/MArzo:* Thundurus forma Avatar\n*29/MArzo:* Lugia` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/c4qDMJG6/tornadus-2.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/MArzo:* Ho-Oh\n*15/MArzo:* Ho-Oh\n*22/MArzo:* Thundurus forma Avatar\n*29/MArzo:* Lugia` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".IncLeg") || rtps1.includes(".incleg")){
 m.reply(`🤖*buscando las llegadas de las proximas raid legendarias del mes:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/ZqZMxMr2/thundurus.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/Marzo:* Ho-Oh\n*21/MArzo:* Thundurus forma Avatar\n*28/Marzo:* Lugia` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/mrq3Ldbh/tornadus.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/Marzo:* Ho-Oh\n*21/MArzo:* Thundurus forma Avatar\n*28/Marzo:* Lugia` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
