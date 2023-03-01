@@ -36,7 +36,7 @@ m.limit = 0
 if (rtps1.includes(".Pokebot") || rtps1.includes(".pokebot")){
 m.reply(`🤖*hola, gracias por usar el bot, te comparto la lista de comandos (RECUERDA PONER UN . ANTES DE CADA COMANDO):*`)
 setTimeout( () => {
-m.reply(`*.Safari o .safari:* Informacion de los proximos safari zone\n\n*.cd o .Cd:* informacion de los proximos dias de la comunidad\n\n*.HraDes o .hrades:* informacion de las proximas horas destacadas\n\n*.HraLeg o .hraleg:* informacion de las proximas horas legendarias*\n\n*.Capi o .capi:* comparte el ultimo capitulo del anime\n\n*.eentos o .Eventos:* enlista los proximos eventos en el juego\n\n*.sticker:* usalo para convertir una imagen en sticker, tambien funciona con videos de menos de 10 segundos de duracion. 😎🤝`)
+m.reply(`*.Safari o .safari:* Informacion de los proximos safari zone\n\n*.sello o .Sello:* Informacion de los pokemon que pueden salir de recompensa semanal\n\n*.cd o .Cd:* informacion de los proximos dias de la comunidad\n\n*.HraDes o .hrades:* informacion de las proximas horas destacadas\n\n*.HraLeg o .hraleg:* informacion de las proximas horas legendarias*\n\n*.incleg o .IncLeg:* Informacion de los dias de cambio de incursiones legendarias\n\n.Megas o .megas:* Informacion del dia de cambio de mega incursiones\n\n*.eentos o .Eventos:* enlista los proximos eventos en el juego\n\n*.sticker:* usalo para convertir una imagen en sticker, tambien funciona con videos de menos de 10 segundos de duracion. 😎🤝`)
 }, 2500)
 m.limit = 0
 }
@@ -47,38 +47,52 @@ m.reply(`*Lugar:AUN SIN INFORMACION DEL PROXIMO SAFARI* \n*fecha:* \n*costos apr
 }, 2500)
 m.limit = 0
 }
+if (rtps1.includes(".sello") || rtps1.includes(".Sello")){
+m.reply(`🤖*hola, aqui esta la imagen de las recompensas del sello semanal de marzo:*`)
+setTimeout( () => {
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/pdnBwYPx/marzo.jpg' }, caption: `*suerte con tus shiny*` }, { quoted: m })
+}, 2500)
+m.limit = 0
+}
 if (rtps1.includes(".cd") || rtps1.includes(".Cd")){
 m.reply(`🤖*hola, en un momento te comparto la informacion de los proximos dias de la comunidad:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/63H1r0hT/Chesmin.jpg' }, caption: `*07/Ene:* Chespin\n*evolucion:* Chesnaught\n*ataque legado:* Planta Feroz \n*bonus:* 	Doble caramelos por captura\n	un cuarto de distancia para eclosionar huevos\n\n*21/Ene:* CD Clasico, sin informacion de quien sera el pokemon que repirta\n*evolucion:*\n*ataque legado:*\n*bonus:*\n\n*05/Feb:* Aun sin información\n*evolucion:*\n*ataque legado:*\n*bonus:*` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/4x15sN92/18-marzo.jpg' }, caption: `*18/Marzo:* Aun sin informacion del protagonista\n*evolucion:* Sin informacion\n*ataque legado:* Sin informacion\n*bonus:* sin informacion` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".HraDes") || rtps1.includes(".hrades")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/HxQbHsrm/bergmite.jpg' }, caption: `*20/Dic:* Bergmite \n	*bonus:* doble caramelos por transferencia \n*27/Dic:* Cubchoo \n *bonus:* doble caramelos por transferencia` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/xCGjF77m/eevee.jpg' }, caption: `*07/Marzo:* Eevee\n*bonus:* caramelos x2 al treansferir\n*14/Marzo:* Rowlet\n*bonus:* doble experiencia al evolucionar\n*21/Marzo:* Litten\n*bonus:* polvo estelar doble por captura\n*28/Marzo:* Popplio\n*bonus:* doble experiencia por captura` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".HraLeg") || rtps1.includes(".hraleg")){
 m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/dDc10qdR/cobalion.jpg' }, caption: `*21/Dic:* Cobalion \n*28/Dic:* Kyurem` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/gjJ9qTPm/thundurus-2.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/MArzo:* Ho-Oh\n*15/MArzo:* Ho-Oh\n*22/MArzo:* Thundurus forma Avatar\n*29/MArzo:* Lugia` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
-if (rtps1.includes(".capi") || rtps1.includes(".Capi")){
-m.reply(`🤖*hola en un momento comparto el capitulo de la semana en el anime:*`)
+if (rtps1.includes(".IncLeg") || rtps1.includes(".incleg")){
+m.reply(`🤖*buscando las llegadas de las proximas raid legendarias del mes:*`)
 setTimeout( () => {
-m.reply(`*Aun en espera de que se cargue el capitulo*`)
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/ZqZMxMr2/thundurus.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/Marzo:* Ho-Oh\n*21/MArzo:* Thundurus forma Avatar\n*28/Marzo:* Lugia` }, { quoted: m })
+}, 2500)
+m.limit = 0
+}
+if (rtps1.includes(".Megas") || rtps1.includes(".megas")){
+m.reply(`🤖*buscando las llegadas de las proximas raid tipo mega del mes:*`)
+setTimeout( () => {
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/ThM9YK0F/charizard-y.jpg' }, caption: `*01/Marzo:* Charizard forma Y\n*08/Marzo:* Medicham\n*21/Marzo:* Venasaur\n*28/Marzo:* Alakazam` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".eventos") || rtps1.includes(".Eventos")){
 m.reply(`🤖*hola enviando los siguientes eventos:*`)
 setTimeout( () => {
-m.reply(`*✮01/dic hasta el 1/mar:* inicia la nueva temporada del juego llamada deseos singulares (alucion a Jirachi obviamente)\n\n	durante esta temporada se podra elegir entre bonus de xp, polvos estelares o eclosiones mas rapidas durante investigaciones del evento\n\n*✮03/Dic:* Mega Raid Day con el estreno de mega-blaziken, mega-swampert y mega sceptile\n\n	en el horario de 14:00 a 17:00hrs estos pokemon estaran disponibles en version shiny y con su ataque de CD una vez pasado este evento solo se podran olver a obtener hasta el go tour 2023\n\n	obtendras hasta 5 pases de incursiones durnte este evento\n\n	 adicional se podra comprar una entrada exclusica por 5 dolares obteniendo 6 pases extra, caramelos xl extra, 50% mas de exp y doble de polvo estelar\n\n*✮06/12 al 11/12:* evento mythic blade, pronto mas informacion\n\n*✮10/12:* dia de raids elite, pronto mas informacion\n\n*✮10 y 11/Dic:* investigacion especial de keldeo\n\n*✮15/12 al 23/12:* evevnto de navidad parte 1\n\n*✮23/12 al 31/12 evento de navidad parte 2\n\n*✮24 y 25/Dic:* winter wonderland, pronto mas informacio\n\n*✮24/12:* raid day de avalugg de la region de hisui\n\n*✮finales de Febrero:* Go tour de la region Hoenn\n\n	durante este evento se espera un Jirachi variocolor asegurado\n\n	Kekleon podria debutar, incluyendo su forma shiny\n\n	Se podria tener la aparicion de Groudon y Kyogre en forma primigenia asi como de mega Rayquaza\n\n	Todos los pokemon de la region de Hoenn disponiblescon su version shiny`)
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/Cxw2j2Ct/maestros-captura.jpg' }, caption: `*✮01/Marzo:* nueva temporada del juego llamada Rising Heroes\n\n*✮05/Marzo:* Evento objetivo de captura\n\n*✮08/Marzo:* Festival de los colores\n\n*✮11/Marzo:* Incursiones elite con regidrago y regieleki\n\n*✮21/Marzo:* Heroe cotidiano y toma de control del team go rocket\n\n*✮25/Marzo:* Dia de combates Go` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
