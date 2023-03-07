@@ -57,7 +57,7 @@ m.limit = 0
 if (rtps1.includes(".cd") || rtps1.includes(".Cd")){
 m.reply(`🤖*hola, en un momento te comparto la informacion de los proximos dias de la comunidad:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/4x15sN92/18-marzo.jpg' }, caption: `*18/Marzo:* Aun sin informacion del protagonista\n*evolucion:* Sin informacion\n*ataque legado:* Sin informacion\n*bonus:* sin informacion` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/Qdvdssjd/slow.jpg' }, caption: `*18/Marzo:* Aun sin informacion del protagonista\n*evolucion:* Sin informacion\n*ataque legado:* Sin informacion\n*bonus:* sin informacion` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
@@ -92,7 +92,7 @@ m.limit = 0
 if (rtps1.includes(".eventos") || rtps1.includes(".Eventos")){
 m.reply(`🤖*hola enviando los siguientes eventos:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/Cxw2j2Ct/maestros-captura.jpg' }, caption: `*✮01/Marzo:* nueva temporada del juego llamada Rising Heroes\n\n*✮05/Marzo:* Evento objetivo de captura\n\n*✮08/Marzo:* Festival de los colores\n\n*✮11/Marzo:* Incursiones elite con regidrago y regieleki\n\n*✮21/Marzo:* Heroe cotidiano y toma de control del team go rocket\n\n*✮25/Marzo:* Dia de combates Go` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/D0SN2Vv7/colores.jpg' }, caption: `*✮01/Marzo:* nueva temporada del juego llamada Rising Heroes\n\n*✮05/Marzo:* Evento objetivo de captura\n\n*✮08/Marzo:* Festival de los colores\n\n*✮11/Marzo:* Incursiones elite con regidrago\n\n*✮21/Marzo:* Heroe cotidiano y toma de control del team go rocket\n\n*✮25/Marzo:* Dia de combates Go` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
@@ -151,28 +151,33 @@ m.limit = 0
 
 //Fuertes insultos :v
 if (rtps2.includes("tonto")){
-m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᵀᵒⁿᵗᵒ*_`)
+m.reply(`
+█▀ █▀▀ █▄░█ █▀█ █▀█   █▀▄ █▀▀ ░░█ █▀▀   █▀▄ █▀▀   █ █▄░█ █▀ █░█ █░░ ▀█▀ ▄▀█ █▀█   █▀█   █▀ █▀▀ █▀█ ▄▀█
+▄█ ██▄ █░▀█ █▄█ █▀▄   █▄▀ ██▄ █▄█ ██▄   █▄▀ ██▄   █ █░▀█ ▄█ █▄█ █▄▄ ░█░ █▀█ █▀▄   █▄█   ▄█ ██▄ █▀▄ █▀█
+
+█▄▄ ▄▀█ █▄░█ █▀▀ ▄▀█ █▀▄ █▀█
+█▄█ █▀█ █░▀█ ██▄ █▀█ █▄▀ █▄█\n\n*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*tonto*_`)
 m.limit = 0
 }
 if (rtps2.includes("bobo")){
-m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᴮᵒᵇᵒ*_`)
+m.reply(`opɐǝuɐq ɐ̗ɹǝs o ɹɐʇʅnsuᴉ ǝp ǝɾǝp ɹoṵǝs\n\n*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*bobo*_`)
 m.limit = 0
 }
 if (rtps2.includes("idiota")){
-m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᴾᵃᵖᵃⁿᵃᵗᵃˢ*_`)
+m.reply(`s̷e̷ñ̷o̷r̷ d̷e̷j̷e̷ d̷e̷ i̷n̷s̷u̷l̷t̷a̷r̷ o̷ s̷e̷r̷á̷ b̷a̷n̷e̷a̷d̷o̷*\n\nˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*idiota*_`)
 m.limit = 0
 }
-if (rtps2.includes("perseve")){
-m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᴾᵉʳˢᵉᵛᵉ* _`)
+if (rtps2.includes("joto")){
+m.reply(`🆂🅴🅽̃🅾🆁 🅳🅴🅹🅴 🅳🅴 🅸🅽🆂🆄🅻🆃🅰🆁 🅾 🆂🅴🆁🅰 🅱🅰🅽🅴🅰🅳🅾\n\n*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*joto* _`)
 m.limit = 0 
 }
-if (rtps2.includes("pelele")){
-m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᴾᵉˡᵉˡᵉ*_`)
-m.limit = 10
+if (rtps2.includes("menso")){
+m.reply(`丂🝗𝓝̃ㄖ尺 ᗪ🝗丿🝗 ᗪ🝗 讠𝓝丂ㄩ㇄〸闩尺 ㄖ 丂🝗尺闩́ ⻏闩𝓝🝗闩ᗪㄖ\n\n*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*menso*_`)
+m.limit = 0
 }
 if (rtps2.includes("pamplinas")){
 m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᴾᵃᵐᵖˡᶦⁿᵃˢ*_`)
-m.limit = 1
+m.limit = .
 }
 if (rtps2.includes("chispas")){
 m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᶜʰᶦˢᵖᵃˢ*_`)
