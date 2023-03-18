@@ -36,7 +36,7 @@ m.limit = 0
 if (rtps1.includes(".Pokebot") || rtps1.includes(".pokebot")){
 m.reply(`🤖*hola, gracias por usar el bot, te comparto la lista de comandos (RECUERDA PONER UN . ANTES DE CADA COMANDO):*`)
 setTimeout( () => {
-m.reply(`*.Safari o .safari:* Informacion de los proximos safari zone\n\n*.sello o .Sello:* Informacion de los pokemon que pueden salir de recompensa semanal\n\n*.cd o .Cd:* informacion de los proximos dias de la comunidad\n\n*.HraDes o .hrades:* informacion de las proximas horas destacadas\n\n*.HraLeg o .hraleg:* informacion de las proximas horas legendarias*\n\n*.incleg o .IncLeg:* Informacion de los dias de cambio de incursiones legendarias\n\n.Megas o .megas:* Informacion del dia de cambio de mega incursiones\n\n*.eventos o .Eventos:* enlista los proximos eventos en el juego\n\n*.sticker:* usalo para convertir una imagen en sticker, tambien funciona con videos de menos de 10 segundos de duracion. 😎🤝`)
+m.reply(`*.Safari o .safari:* Informacion de los proximos safari zone\n\n*.sello o .Sello:* Informacion de los pokemon que pueden salir de recompensa semanal\n\n*.cd o .Cd:* informacion de los proximos dias de la comunidad\n\n*.HraDes o .hrades:* informacion de las proximas horas destacadas\n\n*.HraLeg o .hraleg:* informacion de las proximas horas legendarias*\n\n*.incleg o .IncLeg:* Informacion de los dias de cambio de incursiones legendarias\n\n.Megas o .megas:* Informacion del dia de cambio de mega incursiones\n\n*.eentos o .Eventos:* enlista los proximos eventos en el juego\n\n*.sticker:* usalo para convertir una imagen en sticker, tambien funciona con videos de menos de 10 segundos de duracion. 😎🤝`)
 }, 2500)
 m.limit = 0
 }
@@ -57,7 +57,7 @@ m.limit = 0
 if (rtps1.includes(".cd") || rtps1.includes(".Cd")){
 m.reply(`🤖*hola, en un momento te comparto la informacion de los proximos dias de la comunidad:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/Qdvdssjd/slow.jpg' }, caption: `*18/Marzo:* Aun sin informacion del protagonista\n*evolucion:* Sin informacion\n*ataque legado:* Sin informacion\n*bonus:* sin informacion` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/4x15sN92/18-marzo.jpg' }, caption: `*18/Marzo:* Aun sin informacion del protagonista\n*evolucion:* Sin informacion\n*ataque legado:* Sin informacion\n*bonus:* sin informacion` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
@@ -69,16 +69,16 @@ this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/xCGjF77m/eevee.jpg
 m.limit = 0
 }
 if (rtps1.includes(".HraLeg") || rtps1.includes(".hraleg")){
-m.reply(`🤖*buscando las siguientes horas legendarias:*`)
+m.reply(`🤖*buscando las siguientes horas destacadas:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/c4qDMJG6/tornadus-2.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/MArzo:* Ho-Oh\n*15/MArzo:* Ho-Oh\n*22/MArzo:* Thundurus forma Avatar\n*29/MArzo:* Lugia` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/gjJ9qTPm/thundurus-2.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/MArzo:* Ho-Oh\n*15/MArzo:* Ho-Oh\n*22/MArzo:* Thundurus forma Avatar\n*29/MArzo:* Lugia` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".IncLeg") || rtps1.includes(".incleg")){
 m.reply(`🤖*buscando las llegadas de las proximas raid legendarias del mes:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/mrq3Ldbh/tornadus.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/Marzo:* Ho-Oh\n*21/MArzo:* Thundurus forma Avatar\n*28/Marzo:* Lugia` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/ZqZMxMr2/thundurus.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/Marzo:* Ho-Oh\n*21/MArzo:* Thundurus forma Avatar\n*28/Marzo:* Lugia` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
@@ -92,7 +92,7 @@ m.limit = 0
 if (rtps1.includes(".eventos") || rtps1.includes(".Eventos")){
 m.reply(`🤖*hola enviando los siguientes eventos:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/D0SN2Vv7/colores.jpg' }, caption: `*✮01/Marzo:* nueva temporada del juego llamada Rising Heroes\n\n*✮05/Marzo:* Evento objetivo de captura\n\n*✮08/Marzo:* Festival de los colores\n\n*✮11/Marzo:* Incursiones elite con regidrago\n\n*✮21/Marzo:* Heroe cotidiano y toma de control del team go rocket\n\n*✮25/Marzo:* Dia de combates Go` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/Cxw2j2Ct/maestros-captura.jpg' }, caption: `*✮01/Marzo:* nueva temporada del juego llamada Rising Heroes\n\n*✮05/Marzo:* Evento objetivo de captura\n\n*✮08/Marzo:* Festival de los colores\n\n*✮11/Marzo:* Incursiones elite con regidrago y regieleki\n\n*✮21/Marzo:* Heroe cotidiano y toma de control del team go rocket\n\n*✮25/Marzo:* Dia de combates Go` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
@@ -152,23 +152,23 @@ m.limit = 0
 //Fuertes insultos :v
 if (rtps2.includes("tonto")){
 m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᵀᵒⁿᵗᵒ*_`)
-m.limit = 1
+m.limit = 0
 }
 if (rtps2.includes("bobo")){
 m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᴮᵒᵇᵒ*_`)
-m.limit = 1
+m.limit = 0
 }
-if (rtps2.includes("papanatas")){
+if (rtps2.includes("idiota")){
 m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᴾᵃᵖᵃⁿᵃᵗᵃˢ*_`)
-m.limit = 1
+m.limit = 0
 }
 if (rtps2.includes("perseve")){
 m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᴾᵉʳˢᵉᵛᵉ* _`)
-m.limit = 1
+m.limit = 0 
 }
 if (rtps2.includes("pelele")){
 m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᴾᵉˡᵉˡᵉ*_`)
-m.limit = 1
+m.limit = 10
 }
 if (rtps2.includes("pamplinas")){
 m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᴾᵃᵐᵖˡᶦⁿᵃˢ*_`)
@@ -176,9 +176,8 @@ m.limit = 1
 }
 if (rtps2.includes("chispas")){
 m.reply(`*ˢᵉ ᵈᵉᵗᵉᶜᵗᵒ ᵘⁿ ᶦⁿˢᵘˡᵗᵒ ᵐᵘʸ ᶠᵘᵉʳᵗᵉ*\n_*ᶜʰᶦˢᵖᵃˢ*_`)
-m.limit = 1
+m.limit = 0
 }
-
 
 //fakemsj - no es real . _.
 if (rtps1.includes("pasen porno") || (rtps1.includes("Pasen porno") || (rtps1.includes("zelda") || (rtps1.includes("nopor"))))){
@@ -387,4 +386,4 @@ this.sendMessage(m.chat, {sticker: fs.readFileSync('./multimedia/misstks/teslago
 return !0
 }
 
-export default handlerr
+export default handler
