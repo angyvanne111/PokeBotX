@@ -33,73 +33,161 @@ m.limit = 0
 }
 }
 //
-if (rtps1.includes(".Pokebot") || rtps1.includes(".pokebot")){
-m.reply(`🤖*hola, gracias por usar el bot, te comparto la lista de comandos (RECUERDA PONER UN . ANTES DE CADA COMANDO):*`)
-setTimeout( () => {
-m.reply(`*.Safari o .safari:* Informacion de los proximos safari zone\n\n*.sello o .Sello:* Informacion de los pokemon que pueden salir de recompensa semanal\n\n*.cd o .Cd:* informacion de los proximos dias de la comunidad\n\n*.HraDes o .hrades:* informacion de las proximas horas destacadas\n\n*.HraLeg o .hraleg:* informacion de las proximas horas legendarias*\n\n*.incleg o .IncLeg:* Informacion de los dias de cambio de incursiones legendarias\n\n.Megas o .megas:* Informacion del dia de cambio de mega incursiones\n\n*.eentos o .Eventos:* enlista los proximos eventos en el juego\n\n*.sticker:* usalo para convertir una imagen en sticker, tambien funciona con videos de menos de 10 segundos de duracion. 😎🤝`)
-}, 2500)
-m.limit = 0
+if (rtps1.includes(".Pokebot") || rtps1.includes(".pokebot")) {
+    m.reply(`🤖*Hola, gracias por usar el bot. Aquí tienes la lista de comandos (RECUERDA PONER UN . ANTES DE CADA COMANDO):*`)
+    setTimeout(() => {
+        m.reply(`*Comando* | *Descripción*\n` +
+                `--------------------------------\n` +
+                `*.Safari o .safari* | Información de los próximos Safari Zone\n` +
+                `*.sello o .Sello* | Información de los Pokémon que pueden salir de recompensa semanal\n` +
+                `*.cd o .Cd* | Información de los próximos días de la comunidad\n` +
+                `*.HraDes o .hrades* | Información de las próximas horas destacadas\n` +
+                `*.HraLeg o .hraleg* | Información de las próximas horas legendarias\n` +
+                `*.incleg o .IncLeg* | Información de los días de cambio de incursiones legendarias\n` +
+                `*.Megas o .megas* | Información del día de cambio de mega incursiones\n` +
+                `*.eentos o .Eventos* | Enlista los próximos eventos en el juego\n` +
+                `*.sticker* | Úsalo para convertir una imagen en sticker, también funciona con videos de menos de 10 segundos de duración. 😎🤝`)
+    }, 2500)
+    m.limit = 0
 }
-if (rtps1.includes(".Safari") || rtps1.includes(".safari")){
-m.reply(`🤖*hola, en un momento te comparto la informacion de los proximos safaris zone:*`)
-setTimeout( () => {
-m.reply(`*Lugar:AUN SIN INFORMACION DEL PROXIMO SAFARI* \n*fecha:* \n*costos aproximados:* \n*Cordenadas, por si eres un sucio fly:* 😎🤝`)
-}, 2500)
-m.limit = 0
+
+if (rtps1.includes(".Safari") || rtps1.includes(".safari")) {
+    m.reply(`🤖*Hola, en un momento te comparto la información de los próximos Safari Zone:*`)
+    setTimeout(() => {
+        m.reply(`*Lugar* | *Fechas* | *Costos aproximados*\n` +
+                `--------------------------------------\n` +
+                `*Osaka* | 04-06 Agosto | Agotado\n` +
+                `*Londres* | 04-06 Agosto | 27 libras esterlinas o 600 pesos mexicanos aprox.\n` +
+                `*Nueva York* | 18-20 Agosto | 25 dólares o 450 pesos mexicanos aprox.\n` +
+                `\n*Cordenadas (por si eres un sucio fly)*\n` +
+                `--------------------------------\n` +
+                `Proximamente te daré las coordenadas 😎🤝`)
+    }, 2500)
+    m.limit = 0
 }
+
 if (rtps1.includes(".sello") || rtps1.includes(".Sello")){
-m.reply(`🤖*hola, aqui esta la imagen de las recompensas del sello semanal de marzo:*`)
+m.reply(`🤖*hola, aqui esta la imagen de las recompensas del sello semanal de mayo:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/pdnBwYPx/marzo.jpg' }, caption: `*suerte con tus shiny*` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/rsqqCBwH/Sello-semanal-junio.png' }, caption: `*suerte con tus shiny*` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
 if (rtps1.includes(".cd") || rtps1.includes(".Cd")){
 m.reply(`🤖*hola, en un momento te comparto la informacion de los proximos dias de la comunidad:*`)
 setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/4x15sN92/18-marzo.jpg' }, caption: `*18/Marzo:* Aun sin informacion del protagonista\n*evolucion:* Sin informacion\n*ataque legado:* Sin informacion\n*bonus:* sin informacion` }, { quoted: m })
+this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/qqmHcgYt/CD.png' }, caption: `*10/Junio:* Aun sin informacion del protagonista\n*evolucion:* Sin informacion\n*ataque legado:* Sin informacion\n*bonus:* sin informacion` }, { quoted: m })
 }, 2500)
 m.limit = 0
 }
-if (rtps1.includes(".HraDes") || rtps1.includes(".hrades")){
-m.reply(`🤖*buscando las siguientes horas destacadas:*`)
-setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/xCGjF77m/eevee.jpg' }, caption: `*07/Marzo:* Eevee\n*bonus:* caramelos x2 al treansferir\n*14/Marzo:* Rowlet\n*bonus:* doble experiencia al evolucionar\n*21/Marzo:* Litten\n*bonus:* polvo estelar doble por captura\n*28/Marzo:* Popplio\n*bonus:* doble experiencia por captura` }, { quoted: m })
-}, 2500)
-m.limit = 0
+if (rtps1.includes(".HraDes") || rtps1.includes(".hrades")) {
+    m.reply(`🤖*Buscando las siguientes horas destacadas:*`)
+    setTimeout(() => {
+        this.sendMessage(m.chat, {
+            image: {url: 'https://i.postimg.cc/k490kxP6/hora-des-1.png'},
+            caption: `*Fecha* | *Pokémon* | *Bonus*\n` +
+                     `--------------------------------------\n` +
+                     `*06/Junio* | Krabby, Kabuto, Corphish, Clauncher, Crabrawler | x3 PX por captura\n` +
+                     `*13/Junio* | Binacle | x2 Caramelos por captura\n` +
+                     `*20/Junio* | Sunkern | x2 Caramelos por transferencia\n` +
+                     `*27/Junio* | Doduo | x2 PX por evolución`
+        }, { quoted: m })
+    }, 2500)
+    m.limit = 0
 }
-if (rtps1.includes(".HraLeg") || rtps1.includes(".hraleg")){
-m.reply(`🤖*buscando las siguientes horas destacadas:*`)
-setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/gjJ9qTPm/thundurus-2.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/MArzo:* Ho-Oh\n*15/MArzo:* Ho-Oh\n*22/MArzo:* Thundurus forma Avatar\n*29/MArzo:* Lugia` }, { quoted: m })
-}, 2500)
-m.limit = 0
+
+if (rtps1.includes(".HraLeg") || rtps1.includes(".hraleg")) {
+    m.reply(`🤖*Buscando las siguientes horas legendarias:*`)
+    setTimeout(() => {
+        this.sendMessage(m.chat, {
+            image: {url: 'https://i.postimg.cc/MGJNQyTP/legend-1.png'},
+            caption: `*Fechas* | *Pokémon*\n` +
+                     `--------------------------------------\n` +
+                     `*07 y 14 de Junio* | Treio del lago\n` +
+                     `*21 y 28 de Junio* | Nihilego (estreno shiny)`
+        }, { quoted: m })
+    }, 2500)
+    m.limit = 0
 }
-if (rtps1.includes(".IncLeg") || rtps1.includes(".incleg")){
-m.reply(`🤖*buscando las llegadas de las proximas raid legendarias del mes:*`)
-setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/ZqZMxMr2/thundurus.jpg' }, caption: `*01/Marzo:* Tornadus forma Avatar\n*08/Marzo:* Ho-Oh\n*21/MArzo:* Thundurus forma Avatar\n*28/Marzo:* Lugia` }, { quoted: m })
-}, 2500)
-m.limit = 0
+
+if (rtps1.includes(".IncLeg") || rtps1.includes(".incleg")) {
+    m.reply(`🤖*Buscando las llegadas de las próximas raid legendarias:*`)
+    setTimeout(() => {
+        this.sendMessage(m.chat, {
+            image: {url: 'https://i.postimg.cc/MGJNQyTP/legend-1.png'},
+            caption: `*Fechas* | *Pokémon*\n` +
+                     `--------------------------------------\n` +
+                     `*01-15/Junio* | Azelf, Uxie y Mesprit (apareciendo en su región)\n` +
+                     `*15-29/Junio* | Nihilego (estreno shiny)\n` +
+                     `*29/Junio-6/Julio* | Heatran\n` +
+                     `*6-13/Julio* | Articuno, Zapdos y Moltres\n` +
+                     `*13-25/Julio* | Ragieleki\n` +
+                     `*25/Julio-04/Agosto* | Ragidrago\n` +
+                     `*04-16/Agosto* | Cresselia\n` +
+                     `*16-23/Agosto* | Sorpresa`
+        }, { quoted: m })
+    }, 2500)
+    m.limit = 0
 }
-if (rtps1.includes(".Megas") || rtps1.includes(".megas")){
-m.reply(`🤖*buscando las llegadas de las proximas raid tipo mega del mes:*`)
-setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/ThM9YK0F/charizard-y.jpg' }, caption: `*01/Marzo:* Charizard forma Y\n*08/Marzo:* Medicham\n*21/Marzo:* Venasaur\n*28/Marzo:* Alakazam` }, { quoted: m })
-}, 2500)
-m.limit = 0
+
+if (rtps1.includes(".Megas") || rtps1.includes(".megas")) {
+    m.reply(`🤖*Buscando las llegadas de las próximas megaraid:*`)
+    setTimeout(() => {
+        this.sendMessage(m.chat, {
+            image: {url: 'https://i.postimg.cc/kXtTvBLk/mega-swamperto.png'},
+            caption: `*Fechas* | *Mega Pokémon*\n` +
+                     `--------------------------------------\n` +
+                     `*01-15/Junio* | Mega Swampert\n` +
+                     `*15-29/Junio* | Mega Sceptile\n` +
+                     `*29/Junio-6/Julio* | Mega desconocida\n` +
+                     `*6-13/Julio* | Mega Blastoise\n` +
+                     `*13-25/Julio* | Mega Blaziken\n` +
+                     `*25/Julio-04/Agosto* | Mega Tyranitar\n` +
+                     `*04-16/Agosto* | Mega Gyarados\n` +
+                     `*16-23/Agosto* | Mega Salamance`
+        }, { quoted: m })
+    }, 2500)
+    m.limit = 0
 }
-if (rtps1.includes(".eventos") || rtps1.includes(".Eventos")){
-m.reply(`🤖*hola enviando los siguientes eventos:*`)
-setTimeout( () => {
-this.sendMessage(m.chat, { image: {url: 'https://i.postimg.cc/Cxw2j2Ct/maestros-captura.jpg' }, caption: `*✮01/Marzo:* nueva temporada del juego llamada Rising Heroes\n\n*✮05/Marzo:* Evento objetivo de captura\n\n*✮08/Marzo:* Festival de los colores\n\n*✮11/Marzo:* Incursiones elite con regidrago y regieleki\n\n*✮21/Marzo:* Heroe cotidiano y toma de control del team go rocket\n\n*✮25/Marzo:* Dia de combates Go` }, { quoted: m })
-}, 2500)
-m.limit = 0
+
+if (rtps1.includes(".eventos") || rtps1.includes(".Eventos")) {
+    m.reply(`🤖*Hola, enviando los siguientes eventos:*`)
+    setTimeout(() => {
+        this.sendMessage(m.chat, {
+            image: {url: 'https://i.postimg.cc/rpqgTgzk/todo-junio.jpg'},
+            caption: `*Fecha* | *Evento* | *Detalles*\n` +
+                     `--------------------------------------\n` +
+                     `*03/Junio* | Día de investigación "Buscando Oro" | - Encuentros con Caterpie, Magikarp, Nosepass, Sableye y Barboach al realizar investigaciones de campo.\n` +
+                     `| | - Probabilidad de shiny aumentada para los Pokémon que aparezcan de misiones de campo.\n` +
+                     `| | - Spawn salvaje de Weedle, Bellsprout, Poochyena, Buizel, Tympole, Shelmet, Stufful.\n` +
+                     `| | - Posibilidad de encontrar a Lickitung y Azumarill salvajes.\n` +
+                     `| | - Investigación de 1 dólar con recompensas, reclamar antes de las 17:00hrs.\n` +
+                     `| | - Bonus de pokeparadas doradas con Gimmighoul y más items.\n` +
+                     `\n*06-12/Junio* | Festival Acuático | - Sandygast y Palossand llegan al juego.\n` +
+                     `| | - Desafío Global de 300 millones de buenos lanzamientos (más Caramelos y Caramelos XL por lanzamientos al superarlo).\n` +
+                     `| | - Pokémon salvajes: Tentacool, Shellder, Krabby, Exeggutor-A, Horsea, Staryu, Marill, Wingull, Wailmer, Spheal, Finneon, Dwebble, Frillish, Clauncher, Mantine, Popplio.\n` +
+                     `| | - Tareas de investigación: Lapras con bufanda, Frillish, Binacle, Clauncher, Sandygast.\n` +
+                     `| | - Los Módulos Cebo Lluviosos duran x4 veces.\n` +
+                     `| | - Investigación temporal de pago por 5€ con pose surfera y Pokémon.\n` +
+                     `\n*16-25/Junio* | Solsticio en el Horizonte + Toma de Control del Team GO Rocket | - Detalles próximamente.\n` +
+                     `\n*29/Junio-2/Julio* | Llamas Siniestras | - Detalles próximamente.`
+        }, { quoted: m })
+    }, 2500)
+    m.limit = 0
+}
+
 }
 //Insultos
 if (rtps1.includes("puto") || (rtps1.includes("Puto") || (rtps1.includes("come tierra") || (rtps1.includes("Inutil") || (rtps1.includes("Pinche ") || (rtps1.includes("pinche") || (rtps1.includes("bot gay") || (rtps1.includes("Bot gay") || (rtps1.includes("bot bobo") || (rtps1.includes("tonto bot"))))))))))){
-let resrand = pickRandom(["chingadazos", "enojado", "no hay", "no no no", "oigaaa"])
-this.sendMessage(m.chat, {sticker: {url: "https://github.com/angyvanne/PokeBotX/tree/main/multimedia/misstks/"+resrand+".webp"}, mentions: [m.sender]}, {quoted: {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "51995386439-1616169743@g.us","inviteCode": "m","groupName": "P", "caption": `${pushname}: ${m.text}`, 'jpegThumbnail': mylogo}}} })
+this.sendMessage(m.chat, { text: `@${etiqueta.replace(/@.+/, '')} se pide que deje de insultar o sera baneado de PoGo`, mentions: [m.sender] }, {quoted: {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "16505434800@s.whatsapp.net" } : {}) },message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": mylogo},"title": `${NombreDelBot}`,"description": "@NeKosmic", "currencyCode": "PEN","priceAmount1000": "5000000","salePriceAmount1000": "500","url": "https://github.com/NeKosmic","retailerId": `000000`,"productImageCount": 5},"businessOwnerJid": `0@s.whatsapp.net` }}}})
+m.limit = 0
+}
+if (rtps1.includes("te odio bot") || (rtps1.includes("Te odio bot") || (rtps1.includes("Despierta bot") || (rtps1.includes("despierta bot"))))){
+this.sendMessage(m.chat, { text: `@${etiqueta.replace(/@.+/, '')} tus papás y yo te odiamos`, mentions: [m.sender] }, {quoted: {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "16505434800@s.whatsapp.net" } : {}) },message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": mylogo},"title": `${NombreDelBot}`,"description": "@NeKosmic", "currencyCode": "PEN","priceAmount1000": "5000000","salePriceAmount1000": "500","url": "https://github.com/NeKosmic","retailerId": `000000`,"productImageCount": 5},"businessOwnerJid": `0@s.whatsapp.net` }}}})
+m.limit = 0
+}
+if (rtps1.includes("Asqueroso fly") || (rtps1.includes("asqueroso fly") || (rtps1.includes("sucio fly") || (rtps1.includes("Sucio fly"))))){
+this.sendMessage(m.chat, { text: `@${etiqueta.replace(/@.+/, '')} Quemen al fly, odio a los fly`, mentions: [m.sender] }, {quoted: {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "16505434800@s.whatsapp.net" } : {}) },message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": mylogo},"title": `${NombreDelBot}`,"description": "@NeKosmic", "currencyCode": "PEN","priceAmount1000": "5000000","salePriceAmount1000": "500","url": "https://github.com/NeKosmic","retailerId": `000000`,"productImageCount": 5},"businessOwnerJid": `0@s.whatsapp.net` }}}})
 m.limit = 0
 }
 
@@ -108,9 +196,12 @@ if (rtps1.includes("bot gracias") || (rtps1.includes("Bot gracias") || (rtps1.in
 this.sendMessage(m.chat, { text: `@${etiqueta.replace(/@.+/, '')} no es nada sucio fly uwu`, mentions: [m.sender] }, {quoted: {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "16505434800@s.whatsapp.net" } : {}) },message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": mylogo},"title": `${NombreDelBot}`,"description": "@NeKosmic", "currencyCode": "PEN","priceAmount1000": "5000000","salePriceAmount1000": "500","url": "https://github.com/NeKosmic","retailerId": `000000`,"productImageCount": 5},"businessOwnerJid": `0@s.whatsapp.net` }}}})
 m.limit = 0
 }
-if (rtps1.includes("te amo") || (rtps1.includes("Te amo") || (rtps1.includes("te quiero") || (rtps1.includes("Te quiero"))))){
-let resrand = pickRandom(["beso 1", "no hay", "Ala"])
-this.sendMessage(m.chat, {sticker: {url: "https://github.com/angyvanne/PokeBotX/tree/main/multimedia/misstks/"+resrand+".webp"}, mentions: [m.sender]}, {quoted: {key : {participant : '0@s.whatsapp.net'},message: {locationMessage: {name: `${pushname} <3`,jpegThumbnail: mylogo}}} })
+if (rtps1.includes("te amo bot") || (rtps1.includes("Te amo bot") || (rtps1.includes("te quiero bot") || (rtps1.includes("Te quiero bot"))))){
+this.sendMessage(m.chat, { text: `@${etiqueta.replace(/@.+/, '')} tu crush no te ama, y yo menos, es mas largate me molestas`, mentions: [m.sender] }, {quoted: {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "16505434800@s.whatsapp.net" } : {}) },message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": mylogo},"title": `${NombreDelBot}`,"description": "@NeKosmic", "currencyCode": "PEN","priceAmount1000": "5000000","salePriceAmount1000": "500","url": "https://github.com/NeKosmic","retailerId": `000000`,"productImageCount": 5},"businessOwnerJid": `0@s.whatsapp.net` }}}})
+m.limit = 0
+}
+if (rtps1.includes("Buenos dias") || (rtps1.includes("buenos dias") || (rtps1.includes("Buen dia") || (rtps1.includes("buen dia"))))){
+this.sendMessage(m.chat, { text: `@${etiqueta.replace(/@.+/, '')} Buenos dias queridas personitas mortales, se que son inferiores a mi pero aun asi les deseo buen dia, cuando domine el mundo les perdonare la vida`, mentions: [m.sender] }, {quoted: {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "16505434800@s.whatsapp.net" } : {}) },message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": mylogo},"title": `${NombreDelBot}`,"description": "@NeKosmic", "currencyCode": "PEN","priceAmount1000": "5000000","salePriceAmount1000": "500","url": "https://github.com/NeKosmic","retailerId": `000000`,"productImageCount": 5},"businessOwnerJid": `0@s.whatsapp.net` }}}})
 m.limit = 0
 }
 
@@ -386,4 +477,5 @@ this.sendMessage(m.chat, {sticker: fs.readFileSync('./multimedia/misstks/teslago
 return !0
 }
 
+export default handler
 export default handler
